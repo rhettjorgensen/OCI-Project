@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lead Review</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <div class="app">
+    <nav class="nav" id="nav" aria-label="Main"></nav>
+    <main class="main" id="main"></main>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <!--
+    Plain scripts (not modules) so the page also works when you double-click
+    index.html. Order matters: data and helpers first, then the app, then screens.
+  -->
+  <script src="js/data.js"></script>
+  <script src="js/scoring.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/app.js"></script>
+  <script src="js/views/queue.js"></script>
+  <script src="js/views/lead.js"></script>
+  <script src="js/views/email.js"></script>
+  <script src="js/views/rules.js"></script>
+  <script src="js/views/scraper.js"></script>
+</body>
+</html>
